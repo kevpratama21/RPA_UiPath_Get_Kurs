@@ -1,0 +1,35 @@
+{
+  "exportedBy": null,
+  "bundleHash": null,
+  "version": "1.0.0.0",
+  "jitAssemblyCompilerCommands": [
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 1,
+        "idRef": "ForEachRowConnections`1_1",
+        "hash": "ForEachRowConnections`1_1|DataRow|bbi1GxgISyCURyrcy6BR6cWy1CSZUp68Mmeg3DRc",
+        "dataType": "System.Data.DataRow, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Kurs",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Beli",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Jual",
+            "dataType": "System.String, System.Private.CoreLib"
+          }
+        ]
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataRow1",
+        "hash": "ForEachRowConnections`1_1|DataRow|QWac43ZszaWkGmyobYDIYz4N7a5mDZbNoQT9dxy45HY",
+        "assemblyName": "Studio.Generated.TypedDataRow1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "DisplayName": "Main",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "BreakTriggerScopeInArgument",
+      "DisplayName": "BreakTriggerScopeInArgument",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "WriteCellConnections_66_Connection0",
+      "DisplayName": "WriteCellConnections_66_Connection",
+      "Category": null,
+      "Tooltip": "Write Cell",
+      "Placeholder": null,
+      "Widget": "Connection",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 1,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "WriteCellConnections_66_Connection0_Property0_Metadata",
+      "DisplayName": "WriteCellConnections_66_Spreadsheet",
+      "Category": null,
+      "Tooltip": "Write Cell",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 2,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "WriteCellConnections_66_Connection0_Property1_Metadata",
+      "DisplayName": "WriteCellConnections_1_Spreadsheet",
+      "Category": null,
+      "Tooltip": "Write Cell",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 2,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "WriteCellConnections_66_Connection0_Property2_Metadata",
+      "DisplayName": "WriteCellConnections_67_Spreadsheet",
+      "Category": null,
+      "Tooltip": "Write Cell",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 2,
+      "DataSourceItems": null
+    }
+  ]
+}
