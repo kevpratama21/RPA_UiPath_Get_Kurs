@@ -1,11 +1,11 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:sd1="clr-namespace:System.Data;assembly=Studio.Generated.TypedDataRow1" xmlns:uga="clr-namespace:UiPath.GSuite.Activities;assembly=UiPath.GSuite.Activities" xmlns:ugade="clr-namespace:UiPath.GSuite.Activities.Drive.Enums;assembly=UiPath.GSuite.Activities" xmlns:ugas="clr-namespace:UiPath.GSuite.Activities.Sheets;assembly=UiPath.GSuite.Activities" xmlns:ugdm="clr-namespace:UiPath.GSuite.Drive.Models;assembly=UiPath.GSuite" xmlns:ugsm="clr-namespace:UiPath.GSuite.Sheets.Models;assembly=UiPath.GSuite" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:usau="clr-namespace:UiPath.Shared.Activities.Utils;assembly=UiPath.GSuite.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:uga="clr-namespace:UiPath.GSuite.Activities;assembly=UiPath.GSuite.Activities" xmlns:ugade="clr-namespace:UiPath.GSuite.Activities.Drive.Enums;assembly=UiPath.GSuite.Activities" xmlns:ugas="clr-namespace:UiPath.GSuite.Activities.Sheets;assembly=UiPath.GSuite.Activities" xmlns:ugdm="clr-namespace:UiPath.GSuite.Drive.Models;assembly=UiPath.GSuite" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:usau="clr-namespace:UiPath.Shared.Activities.Utils;assembly=UiPath.GSuite.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="BreakTriggerScopeInArgument" Type="InArgument(x:String)" />
   </x:Members>
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>819.3333333333334,2497.3333333333335</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>819.3333333333334,2531.3333333333335</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -139,7 +139,7 @@
       <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="704,2432.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="704,2466.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="_out_GoogleSheetsApplicationScope_1__FileId" />
       <Variable x:TypeArguments="x:String" Name="kurs_jual" />
@@ -183,13 +183,13 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <ugas:GoogleSheetsApplicationScope ConnectionAccountName="{x:Null}" ConnectionId="{x:Null}" ContinueOnError="{x:Null}" Filename="{x:Null}" ParentFolderId="{x:Null}" ParentFolderPath="{x:Null}" SpreadsheetName="{x:Null}" Timeout="{x:Null}" Account="kevratama@gmail.com" Action="UseExisting" Connector="uipath-google-sheets" DisplayName="Use Google Spreadsheet" FileId="[_out_GoogleSheetsApplicationScope_1__FileId]" sap:VirtualizedContainerService.HintSize="642,2279.3333333333335" sap2010:WorkflowViewState.IdRef="GoogleSheetsApplicationScope_1" Mode="EnterId" SpreadsheetId="https://docs.google.com/spreadsheets/d/1mePleyWyOyDk1YF6BHIxJqBzf542K_s6d6N1VwyiKfU/edit#gid=1678666554" UseConnectionService="False" UserEmail="kevratama@gmail.com">
+    <ugas:GoogleSheetsApplicationScope ConnectionAccountName="{x:Null}" ConnectionId="{x:Null}" ContinueOnError="{x:Null}" Filename="{x:Null}" ParentFolderId="{x:Null}" ParentFolderPath="{x:Null}" SpreadsheetName="{x:Null}" Timeout="{x:Null}" Account="kevratama@gmail.com" Action="UseExisting" Connector="uipath-google-sheets" DisplayName="Use Google Spreadsheet" FileId="[_out_GoogleSheetsApplicationScope_1__FileId]" sap:VirtualizedContainerService.HintSize="642,2313.3333333333335" sap2010:WorkflowViewState.IdRef="GoogleSheetsApplicationScope_1" Mode="EnterId" SpreadsheetId="https://docs.google.com/spreadsheets/d/1mePleyWyOyDk1YF6BHIxJqBzf542K_s6d6N1VwyiKfU/edit#gid=1678666554" UseConnectionService="False" UserEmail="kevratama@gmail.com">
       <ugas:GoogleSheetsApplicationScope.Body>
         <ActivityAction x:TypeArguments="ugas:IGoogleSheetTarget">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="ugas:IGoogleSheetTarget" Name="Spreadsheet1" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="608,1959.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_42">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="608,1993.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_42">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:Int32" Name="currentRow" />
             </Sequence.Variables>
@@ -217,7 +217,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uga:WriteCellConnections>
-            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Use Browser Chrome: BCA - Kurs dan Kalkulator kurs" sap:VirtualizedContainerService.HintSize="546,25.333333333333332" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="Simulate" OpenMode="IfNotOpen" ScopeGuid="a02b3495-b925-4a7e-a0f4-68947bc41e60" Version="V2" WindowResize="Maximize">
+            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Use Browser Chrome: BCA - Kurs dan Kalkulator kurs" sap:VirtualizedContainerService.HintSize="546,65.33333333333333" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="Simulate" OpenMode="IfNotOpen" ScopeGuid="a02b3495-b925-4a7e-a0f4-68947bc41e60" Version="V2" WindowResize="Maximize">
               <uix:NApplicationCard.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
@@ -1219,13 +1219,13 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uix:NApplicationCard>
-            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Use Browser Chrome: Kurs" sap:VirtualizedContainerService.HintSize="546,1446" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="Simulate" OpenMode="IfNotOpen" ScopeGuid="a02b3495-b925-4a7e-a0f4-68947bc41e60" Version="V2" WindowResize="Maximize">
+            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Use Browser Chrome: Kurs" sap:VirtualizedContainerService.HintSize="546,1442.6666666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="Simulate" OpenMode="IfNotOpen" ScopeGuid="a02b3495-b925-4a7e-a0f4-68947bc41e60" Version="V2" WindowResize="Maximize">
               <uix:NApplicationCard.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="512,1186.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_24">
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="512,1183.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_24">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="x:String" Name="kurs_beli" />
                       <Variable x:TypeArguments="x:String" Name="kurs_jual" />
@@ -1236,7 +1236,7 @@
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450,25.333333333333332" sap2010:WorkflowViewState.IdRef="CommentOut_7">
+                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450,65.33333333333333" sap2010:WorkflowViewState.IdRef="CommentOut_7">
                       <ui:CommentOut.Body>
                         <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,270.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_44">
                           <sap:WorkflowViewStateService.ViewState>
@@ -1258,7 +1258,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:CommentOut>
-                    <Sequence DisplayName="Sequence MANDIRI USD" sap:VirtualizedContainerService.HintSize="450,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_25">
+                    <Sequence DisplayName="Sequence MANDIRI USD" sap:VirtualizedContainerService.HintSize="450,65.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_25">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1324,7 +1324,7 @@
                         </uga:WriteCellConnections.FileIdBackup>
                       </uga:WriteCellConnections>
                     </Sequence>
-                    <Sequence DisplayName="Sequence MANDIRI SGD" sap:VirtualizedContainerService.HintSize="450,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_26">
+                    <Sequence DisplayName="Sequence MANDIRI SGD" sap:VirtualizedContainerService.HintSize="450,65.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_26">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1387,7 +1387,7 @@
                         </uga:WriteCellConnections.FileIdBackup>
                       </uga:WriteCellConnections>
                     </Sequence>
-                    <Sequence DisplayName="Sequence MANDIRI EUR" sap:VirtualizedContainerService.HintSize="450,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_27">
+                    <Sequence DisplayName="Sequence MANDIRI EUR" sap:VirtualizedContainerService.HintSize="450,65.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_27">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1447,7 +1447,7 @@
                         </uga:WriteCellConnections.FileIdBackup>
                       </uga:WriteCellConnections>
                     </Sequence>
-                    <Sequence DisplayName="Sequence MANDIRI AUD" sap:VirtualizedContainerService.HintSize="450,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_28">
+                    <Sequence DisplayName="Sequence MANDIRI AUD" sap:VirtualizedContainerService.HintSize="450,65.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_28">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1507,7 +1507,7 @@
                         </uga:WriteCellConnections.FileIdBackup>
                       </uga:WriteCellConnections>
                     </Sequence>
-                    <Sequence DisplayName="Sequence MANDIRI DKK" sap:VirtualizedContainerService.HintSize="450,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_29">
+                    <Sequence DisplayName="Sequence MANDIRI DKK" sap:VirtualizedContainerService.HintSize="450,65.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_29">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1570,7 +1570,7 @@
                         </uga:WriteCellConnections.FileIdBackup>
                       </uga:WriteCellConnections>
                     </Sequence>
-                    <Sequence DisplayName="Sequence MANDIRI SEK" sap:VirtualizedContainerService.HintSize="450,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_30">
+                    <Sequence DisplayName="Sequence MANDIRI SEK" sap:VirtualizedContainerService.HintSize="450,65.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_30">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1630,7 +1630,7 @@
                         </uga:WriteCellConnections.FileIdBackup>
                       </uga:WriteCellConnections>
                     </Sequence>
-                    <Sequence DisplayName="Sequence MANDIRI CAD" sap:VirtualizedContainerService.HintSize="450,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_31">
+                    <Sequence DisplayName="Sequence MANDIRI CAD" sap:VirtualizedContainerService.HintSize="450,65.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_31">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1690,7 +1690,7 @@
                         </uga:WriteCellConnections.FileIdBackup>
                       </uga:WriteCellConnections>
                     </Sequence>
-                    <Sequence DisplayName="Sequence MANDIRI CHF" sap:VirtualizedContainerService.HintSize="450,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_32">
+                    <Sequence DisplayName="Sequence MANDIRI CHF" sap:VirtualizedContainerService.HintSize="450,65.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_32">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1750,7 +1750,7 @@
                         </uga:WriteCellConnections.FileIdBackup>
                       </uga:WriteCellConnections>
                     </Sequence>
-                    <Sequence DisplayName="Sequence MANDIRI NZD" sap:VirtualizedContainerService.HintSize="450,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_33">
+                    <Sequence DisplayName="Sequence MANDIRI NZD" sap:VirtualizedContainerService.HintSize="450,65.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_33">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1810,7 +1810,7 @@
                         </uga:WriteCellConnections.FileIdBackup>
                       </uga:WriteCellConnections>
                     </Sequence>
-                    <Sequence DisplayName="Sequence MANDIRI GBP" sap:VirtualizedContainerService.HintSize="450,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_34">
+                    <Sequence DisplayName="Sequence MANDIRI GBP" sap:VirtualizedContainerService.HintSize="450,65.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_34">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1870,7 +1870,7 @@
                         </uga:WriteCellConnections.FileIdBackup>
                       </uga:WriteCellConnections>
                     </Sequence>
-                    <Sequence DisplayName="Sequence MANDIRI HKD" sap:VirtualizedContainerService.HintSize="450,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_35">
+                    <Sequence DisplayName="Sequence MANDIRI HKD" sap:VirtualizedContainerService.HintSize="450,65.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_35">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1930,7 +1930,7 @@
                         </uga:WriteCellConnections.FileIdBackup>
                       </uga:WriteCellConnections>
                     </Sequence>
-                    <Sequence DisplayName="Sequence MANDIRI JPY" sap:VirtualizedContainerService.HintSize="450,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_36">
+                    <Sequence DisplayName="Sequence MANDIRI JPY" sap:VirtualizedContainerService.HintSize="450,65.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_36">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1993,7 +1993,7 @@
                         </uga:WriteCellConnections.FileIdBackup>
                       </uga:WriteCellConnections>
                     </Sequence>
-                    <Sequence DisplayName="Sequence MANDIRI SAR" sap:VirtualizedContainerService.HintSize="450,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_37">
+                    <Sequence DisplayName="Sequence MANDIRI SAR" sap:VirtualizedContainerService.HintSize="450,65.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_37">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -2053,7 +2053,7 @@
                         </uga:WriteCellConnections.FileIdBackup>
                       </uga:WriteCellConnections>
                     </Sequence>
-                    <Sequence DisplayName="Sequence MANDIRI CNY" sap:VirtualizedContainerService.HintSize="450,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_38">
+                    <Sequence DisplayName="Sequence MANDIRI CNY" sap:VirtualizedContainerService.HintSize="450,65.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_38">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -2113,7 +2113,7 @@
                         </uga:WriteCellConnections.FileIdBackup>
                       </uga:WriteCellConnections>
                     </Sequence>
-                    <Sequence DisplayName="Sequence MANDIRI MYR" sap:VirtualizedContainerService.HintSize="450,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_39">
+                    <Sequence DisplayName="Sequence MANDIRI MYR" sap:VirtualizedContainerService.HintSize="450,65.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_39">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -2176,7 +2176,7 @@
                         </uga:WriteCellConnections.FileIdBackup>
                       </uga:WriteCellConnections>
                     </Sequence>
-                    <Sequence DisplayName="Sequence MANDIRI THB" sap:VirtualizedContainerService.HintSize="450,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_40">
+                    <Sequence DisplayName="Sequence MANDIRI THB" sap:VirtualizedContainerService.HintSize="450,50.666666666666664" sap2010:WorkflowViewState.IdRef="Sequence_40">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -2249,7 +2249,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uix:NApplicationCard>
-            <uga:WriteCellConnections ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" Spreadsheet="{x:Null}" AuthScopesInvalid="False" BrowserItemFriendlyName="Hasil Report Kurs" BrowserItemId="1-g4ZLxeEfL-uwiG2xBaU_92-kMXzoxZvmBmA9RSwHyM" Cell="B4" ConnectionId="68a0f06f-b94c-42e8-8422-65c6f74df0d4" DisplayName="Write Cell" HideCell="False" sap:VirtualizedContainerService.HintSize="546,25.333333333333332" sap2010:WorkflowViewState.IdRef="WriteCellConnections_67" ItemSelectionMode="UrlOrId" ManualEntrySpreadsheetId="[_out_GoogleSheetsApplicationScope_1__FileId]" RangeLocation="'RPA log'" UseConnectionService="True" WhatToWrite="[Now.ToString(&quot;yyyy-MM-dd HH:mm:ss&quot;)]">
+            <uga:WriteCellConnections ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" Spreadsheet="{x:Null}" AuthScopesInvalid="False" BrowserItemFriendlyName="Hasil Report Kurs" BrowserItemId="1-g4ZLxeEfL-uwiG2xBaU_92-kMXzoxZvmBmA9RSwHyM" Cell="B4" ConnectionId="68a0f06f-b94c-42e8-8422-65c6f74df0d4" DisplayName="Write Cell" HideCell="False" sap:VirtualizedContainerService.HintSize="546,48" sap2010:WorkflowViewState.IdRef="WriteCellConnections_67" ItemSelectionMode="UrlOrId" ManualEntrySpreadsheetId="[_out_GoogleSheetsApplicationScope_1__FileId]" RangeLocation="'RPA log'" UseConnectionService="True" WhatToWrite="[Now.ToString(&quot;yyyy-MM-dd HH:mm:ss&quot;)]">
               <uga:WriteCellConnections.FileIdBackup>
                 <usau:BackupSlot x:TypeArguments="ugade:EDriveItemMode" StoredValue="UrlOrId">
                   <usau:BackupSlot.BackupValues>
@@ -2267,82 +2267,6 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uga:WriteCellConnections>
-            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="546,25.333333333333332" sap2010:WorkflowViewState.IdRef="CommentOut_9">
-              <ui:CommentOut.Body>
-                <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="616.6666666666666,778.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_48">
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                  <uga:ForEachRowConnections x:TypeArguments="sd1:DataRow1" ConnectionAccountName="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" AuthScopesInvalid="False" BrowserItemFriendlyName="Hasil Report Kurs" BrowserItemId="1-g4ZLxeEfL-uwiG2xBaU_92-kMXzoxZvmBmA9RSwHyM" ConnectionId="68a0f06f-b94c-42e8-8422-65c6f74df0d4" DisplayName="For Each Row in Spreadsheet" EmptyRowAction="[UiPath.GSuite.Activities.Sheets.Enums.RowIteratorAction.Stop]" HasHeaders="True" sap:VirtualizedContainerService.HintSize="554.6666666666666,668" sap2010:WorkflowViewState.IdRef="ForEachRowConnections`1_1" ItemSelectionMode="Browse" Length="[currentRow]" Range="CIMB" ReadAs="Values" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
-                    <uga:ForEachRowConnections.Body>
-                      <ActivityAction x:TypeArguments="sd1:DataRow1, x:Int32">
-                        <ActivityAction.Argument1>
-                          <DelegateInArgument x:TypeArguments="sd1:DataRow1" Name="CurrentRow" />
-                        </ActivityAction.Argument1>
-                        <ActivityAction.Argument2>
-                          <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentRowIndex" />
-                        </ActivityAction.Argument2>
-                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="520.6666666666666,362" sap2010:WorkflowViewState.IdRef="Sequence_46">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                          <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="478.6666666666667,148" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
-                            <ui:MultipleAssign.AssignOperations>
-                              <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
-                                <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
-                                  <ui:AssignOperation.To>
-                                    <OutArgument x:TypeArguments="x:String">[kurs_beli]</OutArgument>
-                                  </ui:AssignOperation.To>
-                                  <ui:AssignOperation.Value>
-                                    <InArgument x:TypeArguments="x:String">[currentRow("Beli").toString]</InArgument>
-                                  </ui:AssignOperation.Value>
-                                </ui:AssignOperation>
-                                <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
-                                  <ui:AssignOperation.To>
-                                    <OutArgument x:TypeArguments="x:String">[kurs_jual]</OutArgument>
-                                  </ui:AssignOperation.To>
-                                  <ui:AssignOperation.Value>
-                                    <InArgument x:TypeArguments="x:String">[currentRow("Jual").toString]</InArgument>
-                                  </ui:AssignOperation.Value>
-                                </ui:AssignOperation>
-                              </scg:List>
-                            </ui:MultipleAssign.AssignOperations>
-                          </ui:MultipleAssign>
-                          <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="478.6666666666667,86.66666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;beli : &quot; + kurs_beli + &quot;jual : &quot; + kurs_jual]" />
-                        </Sequence>
-                      </ActivityAction>
-                    </uga:ForEachRowConnections.Body>
-                    <uga:ForEachRowConnections.ColumnNames>
-                      <x:Array Type="x:String">
-                        <x:String>Kurs</x:String>
-                        <x:String>Beli</x:String>
-                        <x:String>Jual</x:String>
-                      </x:Array>
-                    </uga:ForEachRowConnections.ColumnNames>
-                    <uga:ForEachRowConnections.FileIdBackup>
-                      <usau:BackupSlot x:TypeArguments="ugade:EDriveItemMode" StoredValue="Browse">
-                        <usau:BackupSlot.BackupValues>
-                          <scg:Dictionary x:TypeArguments="ugade:EDriveItemMode, scg:List(x:Object)" />
-                        </usau:BackupSlot.BackupValues>
-                      </usau:BackupSlot>
-                    </uga:ForEachRowConnections.FileIdBackup>
-                    <uga:ForEachRowConnections.RangeMetadata>
-                      <ugsm:RangeMetadataSlim ColumnStart="1" RangeType="Range" />
-                    </uga:ForEachRowConnections.RangeMetadata>
-                  </uga:ForEachRowConnections>
-                </Sequence>
-              </ui:CommentOut.Body>
-              <sap:WorkflowViewStateService.ViewState>
-                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                </scg:Dictionary>
-              </sap:WorkflowViewStateService.ViewState>
-            </ui:CommentOut>
           </Sequence>
         </ActivityAction>
       </ugas:GoogleSheetsApplicationScope.Body>
